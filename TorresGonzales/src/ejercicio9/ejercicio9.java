@@ -16,13 +16,14 @@ public class ejercicio9 {
 		
 		System.out.println("hola "+nombre+" el numero de bingo es: "+numRedondeado);
 
-		num_bingo = datos.nextInt();
+		int num_bingo = entrada.nextInt();
 
 		double num_ganador_d = (Math.random()* 9);
 		int num_ganado =  (int) Math.round(num_ganador_d);
 		
-		if (num_bingo = num_ganado) {
+		if (num_bingo == num_ganado) {
 			System.out.println("Ganaste! ");
 	}
 
+}
 }
